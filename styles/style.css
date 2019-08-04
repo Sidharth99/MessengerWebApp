@@ -1,1 +1,155 @@
+    body {
+    /*margin-top:-.1vw;
+    margin-left:-0.05px;
+    */
+}
+.comment{
+    display:none;
+}
 
+#profile_pic{
+position:relative;
+left:30vw;
+top:50vw;
+    border:2px solid white;
+}
+#cover_photo{
+    position:absolute;
+}
+div{
+    width:35vw;
+}
+#cover{
+    }
+
+#about_menu{
+width:100vw;
+margin-top:1vw;
+    padding:2vw;
+    line-height:4vw;
+    float:left;
+    background-color:#eee;
+    margin-left:.3vw;
+}
+ #about_menu li{
+     list-style:none;
+     display:inline;
+ }
+ #about_menu a{
+     color:#000;
+     text-decoration:none;
+     font-size:5vw;
+     margin:6vw;
+     
+ }
+ #about_menu a:hover{
+     text-decoration:none;
+     color:#333;
+     font-weight:bolder;
+ }
+
+
+#like_menu{
+    float:left;
+    padding:0.5vw;
+    background-color:#eee;
+    width:100vw;
+    font-size:5vw;
+    margin-top:10vw;
+}
+#like_menu li{
+    display:inline;
+    margin:7vw;
+}
+#req_menu{
+    float:left;
+    padding:0.5vw;
+    background-color:#eee;
+    margin:2vw;
+}
+#req_menu li{
+    display:inline;
+    margin:2vw;
+}
+#req_menu a{
+    text-decoration:none;
+    color:#000;
+}
+#update_menu{
+margin-top:15vw;
+width:100vw;
+    padding:4vw;
+    line-height:4vw;
+    float:left;
+    background-color:#eee;
+    margin-left:.3vw;
+}
+ #update_menu li{
+     list-style:none;
+     display:inline;
+ }
+ #update_menu a{
+     color:#000;
+     text-decoration:none;
+     font-size:5vw;
+     margin:4vw;
+     
+ }
+ #update_menu a:hover{
+     text-decoration:none;
+     color:#333;
+     font-weight:bolder;
+ }
+ 
+#feed_menu{
+    font-size:4vw;
+    background-color:#0066ca;
+    padding:3vw;
+    /*height:3vw;*/
+    width:106vw;
+}
+#feed_menu li{
+    display:inline;
+    margin:0.5vw;
+}
+#feed_menu a{
+    text-decoration:none;
+    
+    color:white;
+}
+#feed_menu a:hover{
+    color:#C53131;
+} 
+
+
+
+#msg_container{
+    overflow:scroll;
+    height:100vw;
+    width:100vw
+}
+.user_msg{
+    float:right;
+    background-color:lightgreen;
+    min-height:6vw;
+    height:auto;
+    min-width:25vw;
+    max-width:50vw;
+    border-radius:0 5vw 0 5vw;
+    font-size:;
+    text-align:center;
+    padding:3vw;
+}
+.frnd_msg{
+    float:left;
+    background-color:lightblue;
+    min-height:6vw;
+    height:auto;
+    min-width:25vw;
+    max-width:50vw;
+    border-radius:5vw 0 5vw 0;
+    font-size:;
+    text-align:center;
+    padding:3vw;
+    
+}
